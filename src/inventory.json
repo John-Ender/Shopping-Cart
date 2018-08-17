@@ -1,0 +1,55 @@
+[
+  {
+    "_id": 1,
+    "description": "16lb bag of Skittles",
+    "price": 16.00
+  },
+  {
+    "_id": 2,
+    "description": "Walkman",
+    "price": 99.99,
+    "applySalesTax": true
+  },
+  {
+    "_id": 3,
+    "description": "bag of microwave Popcorn",
+    "price": 0.99
+  },
+  {
+    "_id": 4,
+    "description": "imported bag of Vanilla-Hazelnut Coffee",
+    "price": 11.00,
+    "applyImportTax": true
+  },
+  {
+    "_id": 5,
+    "description": "Imported Vespa",
+    "price": 15001.25,
+    "applySalesTax": true,
+    "applyImportTax": true
+  },
+  {
+    "_id": 6,
+    "description": "imported crate of Almond Snickers",
+    "price": 75.99,
+    "applyImportTax": true
+  },
+  {
+    "_id": 7,
+    "description": "Discman",
+    "price": 55.00,
+    "applySalesTax": true
+  },
+  {
+    "_id": 8,
+    "description": "Imported Bottle of Wine",
+    "price": 10.00,
+    "applySalesTax": true,
+    "applyImportTax": true
+  },
+  {
+    "_id": 9,
+    "description": "300# bag of Fair-Trade Coffee",
+    "price": 997.99
+  }
+]

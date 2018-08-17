@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "./dist/out-tsc",
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

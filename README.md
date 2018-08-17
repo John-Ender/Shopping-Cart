@@ -2,7 +2,6 @@
 ### Node
 Use the following runtime dependencies.  Use NVM (Node version manager) to use different versions of node 
 * node `v8.2.x`
-  * All runtime for UI, and API
 * npm `v5.3.0`
 
 ## Install
@@ -39,7 +38,7 @@ Example output had conflicting decimal precision.
 
 In the first example the output includes trailing zeros on values such as 16.00 or 10.00.
 
-Yet in the second example trailing are eliminated on 17,251.5 and 2,250.8.
+Yet in the second example trailing zeros are eliminated on 17,251.5 and 2,250.8.
 
 To resolve the inconsistency all numeric values are treated as currency and include a decimal precision of 2
     

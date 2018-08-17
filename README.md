@@ -34,7 +34,7 @@ Example Output
         Total: 1,149.78
         
         
-Example output had conflicting decimal precision.
+Provided example output had conflicting decimal precision.
 
 In the first example the output includes trailing zeros on values such as 16.00 or 10.00.
 

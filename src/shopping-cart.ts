@@ -20,7 +20,7 @@ export class ShoppingCart {
     constructor() {
         // Typically an inventory would be retrieved from a database or filestore via an http call
         // take a shortcut here and read the file from disk
-        const inventoryFile = './src/inventory.json';
+        const inventoryFile = './src/data/inventory.json';
         const fileExists = require('file-exists');
 
         if (!fileExists.sync(inventoryFile)) {
